@@ -61,7 +61,7 @@ In your `MasterDetailPage`, instead of using the  standard control, you should u
 Here is an example XAML:
 
     <?xml version="1.0" encoding="UTF-8"?>
-<controls:ExtendedMasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+    <controls:ExtendedMasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 		x:Class="App.Pages.MasterPage"
 		xmlns:controls="clr-namespace:Quartz.Forms.Controls;assembly=App"
@@ -80,7 +80,7 @@ Here is an example XAML:
 			</x:Arguments>
 		</NavigationPage>
 	</MasterDetailPage.Detail>
-</controls:ExtendedMasterDetailPage>
+    </controls:ExtendedMasterDetailPage>
 
 Please note the extra attributes `MenuWidth`, `MenuPresentationStyle` and `MenuBackgroundImages`. These are custom attributes that was declared in `ExtendedMasterDetailPage` and are being used only by `LGSideMenuController`.
 
